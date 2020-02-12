@@ -1,0 +1,12 @@
+:root {
+  --color-white: #ffffff;
+  --color-white-dark: #c4c4c4;
+  --color-white-darker:#7e7e7e;
+  --color-black: #212121;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*# sourceMappingURL=colors.css.map */
