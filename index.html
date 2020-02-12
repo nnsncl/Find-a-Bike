@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang='fr'>
+
+<head>
+    <title>Page de connexion</title>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <link rel='stylesheet' href='css/global.css' />
+
+</head>
+
+<body>
+
+    <section class="container">
+        <h1 class="color-white">Find a Bike Station</h1>
+        <aside>
+            <div id="station-selected">
+                <h2>Infos stations</h2>
+                <div id='station-infos'></div>
+            </div>
+            <div id="no-station-selected">
+                <h2>Aucune station sélectionnée</h2>
+            </div>
+        </aside>
+        <div id="map"></div>
+    </section>
+
+    <section class="container">
+        <h2 class="color-white marg-t-60">Promesse en JavaScript</h2>
+        <p class="color-white" id="promised-result"></p>
+    </section>
+
+
+    <!-- Librairie Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+
+    <script src='js/global.js'></script>
+    <script src='js/ajax.js'></script>
+    <script src="js/index.js"></script>
+    <script src="js/promises.js"></script>
+</body>
+
+</html>
