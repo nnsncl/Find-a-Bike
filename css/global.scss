@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90vw;
+    height: auto;
+    position: relative;
+
+    aside {
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        width: 20vw;
+        height: 70vh;
+        padding: 50px;
+        z-index: 2;
+        background-color: #fafafa;
+    }
+}
+
+#map { 
+    height: 70vh;
+    z-index: 1;
+}
+
+#station-selected{
+    display: none;
+}
